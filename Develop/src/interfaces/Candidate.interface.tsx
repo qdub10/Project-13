@@ -2,11 +2,13 @@
 
 // TODO: Create an interface for the Candidate objects returned by the API
 interface Candidate {
+  html_url: string | undefined;
+  company: string;
+  name: string;
   avatar_url: string | undefined;
   location: string;
   login: string;
   id: number;
-  name: string;
   email: string;
   phone: string;
   address: string;
